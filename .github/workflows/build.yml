@@ -25,6 +25,7 @@ jobs:
         run: yes n | mvn org.openmrs.maven.plugins:openmrs-sdk-maven-plugin:setup-sdk
 
       - name: Build module
+        working-directory: myfirstmodule
         run: mvn -B clean install
 
       - name: Upload built .omod
