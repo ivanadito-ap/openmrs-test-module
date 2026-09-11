@@ -22,11 +22,11 @@ jobs:
           cache: maven
       
       - name: Install SDK
-        run: yes n | mvn org.openmrs.maven.plugins:openmrs-sdk-maven-plugin:setup-sdk
+        run: yes n | mvn -ntp org.openmrs.maven.plugins:openmrs-sdk-maven-plugin:setup-sdk
 
       - name: Build module
         working-directory: myfirstmodule
-        run: mvn clean install "-DargLine=--add-opens java.base/java.lang=ALL-UNNAMED"
+        run: mvn -ntp clean install "-DargLine=--add-opens java.base/java.lang=ALL-UNNAMED"
 
       - name: Upload built .omod
         uses: actions/upload-artifact@v4
