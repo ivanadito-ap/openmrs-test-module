@@ -159,6 +159,6 @@
 	</pluginRepositories>
 
 	<properties>
-		<openmrsPlatformVersion>2.0.0</openmrsPlatformVersion>
+		<openmrsPlatformVersion>2.9.0-SNAPSHOT</openmrsPlatformVersion>
 	</properties>
 </project>
