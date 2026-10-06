@@ -161,8 +161,8 @@
 	<properties>
 		<openmrsPlatformVersion>2.8.8</openmrsPlatformVersion>
 		<appframeworkVersion>2.19.0</appframeworkVersion>
-	        <uiframeworkVersion>4.0.0</uiframeworkVersion>
-    		<uicommonsModuleVersion>3.1.0</uicommonsModuleVersion>
-        	<appuiVersion>1.18.0</appuiVersion>
+	    <uiframeworkVersion>4.0.0</uiframeworkVersion>
+    	<uicommonsModuleVersion>3.1.0</uicommonsModuleVersion>
+        <appuiVersion>1.18.0</appuiVersion>
 	</properties>
 </project>
