@@ -13,3 +13,4 @@ Hello, world.
 <% } %>
 
 ${ ui.includeFragment("myfirstmodule", "users") }
+<div>Hello world! This is my first <b>OpenMRS</b> module!</div>
