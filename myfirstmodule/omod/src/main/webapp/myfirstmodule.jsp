@@ -18,4 +18,6 @@
   </c:forEach>
 </table>
 
+<div>Hello world! This is my first <b>OpenMRS</b> module!</div>
+
 <%@ include file="/WEB-INF/template/footer.jsp"%>
